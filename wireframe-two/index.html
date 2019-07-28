@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+
+  <head>
+      <title lang="fr">Le Studio</title>
+      <meta name="viewport" content="width=device-width, initial-scale=1">
+      <link rel="stylesheet" type="text/css" href="//cdnjs.cloudflare.com/ajax/libs/normalize/6.0.0/normalize.css">
+      <link rel="stylesheet" type="text/css" href="main.css">
+  </head>
+
+  <body>
+    <nav role="navigation">Nav</nav>
+    <main role="main">
+      <header>
+        <h1 lang="fr">La Studio</h1>
+        <h2>Create your own masterpiece!</h2>
+      </header>
+      <section>
+        <form id="record-art">
+          <div class="form-section">
+            <label for="art-title">Title: </label>
+            <input type="text" name="art-title" placeholder="The Starry Night" required>
+          </div>
+          <div class="form-section">            
+            <textarea name="art-summary" rows="15" placeholder="PLACEHOLDER for drawing canvas"   required></textarea>
+          </div>
+         
+          <div class="form-section">
+            <label>Choose a gallery to display your work of art:</label>
+            <select>
+              <option value="gallery-id">Gallery Name</option>
+              <option value="gallery-id">Gallery Name</option>
+              <option value="gallery-id">Gallery Name</option>              
+            </select>
+          </div>
+
+          <button type="submit">Submit</button>
+          <button type="reset">Reset</button>
+        </form>
+      </section>
+    </main>
+  </body>
+
+</html>
